@@ -1,0 +1,9 @@
+.categoryMenu {
+  .img-cate {
+    &:hover {
+      transform: scale(1.01);
+      cursor: pointer;
+      transition: linear 0.03s;
+    }
+  }
+}

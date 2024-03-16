@@ -1,0 +1,20 @@
+.hover-opacity-80 {
+  &:hover {
+    opacity: 0.8 !important;
+  }
+}
+.hover-opacity-70 {
+  &:hover {
+    opacity: 0.7 !important;
+  }
+}
+.hover-opacity-90 {
+  &:hover {
+    opacity: 0.9 !important;
+  }
+}
+.cursor-pointer {
+  &:hover {
+    cursor: pointer !important;
+  }
+}
