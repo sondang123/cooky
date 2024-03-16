@@ -26,10 +26,10 @@ function SearchMenu() {
   return (
     <div>
       <div
-        className="mt-4 mb-3 d-flex align-items-center w-50 justify-content-center"
-        style={{ margin: "0 auto" }}
+        className="mt-4 mb-3 d-flex align-items-center gap-3  justify-content-center flex-wrap"
+        style={{ margin: "0 auto", maxWidth: "800px" }}
       >
-        <div className="flex-grow-1 me-0 me-md-3">
+        <div className="flex-grow-1  ">
           <BaseTextField
             placeholder={"Hôm nay ăn gì ?"}
             name="valueSearch"
@@ -40,11 +40,7 @@ function SearchMenu() {
           />
         </div>
         <Dropdown>
-          <Dropdown.Toggle
-            variant="success"
-            id="dropdown-basic"
-            className="me-2"
-          >
+          <Dropdown.Toggle variant="success" id="dropdown-basic" className="">
             Lọc{" "}
             {formik?.values?.valueFilter?.length > 0
               ? "(" + formik?.values?.valueFilter?.length + ")"
@@ -111,6 +107,7 @@ function SearchMenu() {
           onClick={() => {
             formik.handleSubmit();
           }}
+          className=""
         >
           Tìm kiếm
         </Button>
