@@ -11,9 +11,10 @@ function ItemCard(props) {
       onClick={() => {
         onClick();
       }}
+      className="border-0 shadow"
     >
       <div className="ratio ratio-16x9">
-        <Card.Img variant="top" src={img} />
+        <Card.Img variant="top" src={img} alt="img" />
       </div>
       <Card.Body>
         <Card.Title>{title}</Card.Title>

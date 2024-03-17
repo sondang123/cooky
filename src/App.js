@@ -6,6 +6,7 @@ import Home from "./feature/Home";
 import DetailCategory from "./feature/DetailCategory";
 import DetailDish from "./feature/DetailDish";
 import SearchScreen from "./feature/Search";
+import NotFound from "./general/components/404";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
               element={<DetailDish></DetailDish>}
             />
             <Route path="/tim-kiem" element={<SearchScreen></SearchScreen>} />
+            <Route path="*" element={<NotFound></NotFound>} />
           </Routes>
         </Suspense>
       </BrowserRouter>
