@@ -53,7 +53,7 @@ function DetailCategory() {
                 text={"Không có món nào trong danh mục này"}
                 visible={false}
                 imageEmpty={AppResource.images.imgDefault}
-                imageEmptyPercentWidth={10}
+                imageEmptyPercentWidth={30}
               />
             )}
           </div>

@@ -35,7 +35,7 @@ function SearchScreen() {
       setRenderData(data);
     }
   }, [value]);
-  console.log("valueFilter", valueFilter);
+
   return (
     <div className="">
       <AppLayout>

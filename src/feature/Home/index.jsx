@@ -8,7 +8,7 @@ import { AppData } from "../../general/components/AppData";
 import _ from "lodash";
 import SearchMenu from "./Search";
 import AppResource from "../../general/constants/AppResource";
-
+import Fade from "react-reveal/Fade";
 function Home() {
   const dataCook = _.sampleSize(AppData.dataCook, 5);
   return (
@@ -21,63 +21,73 @@ function Home() {
           <TopDishes title={"Top món ăn "} dataCook={dataCook} />
         </div>
 
-        <h3 className="text-center mt-5">BÚN CHẢ</h3>
-        <div
-          style={{ background: "rgb(199 199 199 / 8%)" }}
-          className="mt-5"
-          id={"bun-cha"}
-        >
-          <Row className="align-items-center">
+        <h3 className="text-center mt-5" id={"bun-cha"}>
+          BÚN CHẢ
+        </h3>
+        <div style={{ background: "rgb(199 199 199 / 8%)" }} className="mt-5">
+          <Row className="align-items-center g-3">
             <Col md={6}>
-              {" "}
-              <div className="ratio ratio-16x9">
-                <img src={AppResource.images.img_banner1} alt={"Bun-cha"} />
-              </div>
+              <Fade right>
+                {" "}
+                <div className="ratio ratio-16x9">
+                  <img src={AppResource.images.img_banner1} alt={"Bun-cha"} />
+                </div>
+              </Fade>
             </Col>
             <Col md={6}>
-              <div className="d-flex align-items-center flex-column justify-content-center">
-                <h2>Bún chả việt nam</h2>
-                <h4>Mang ẩm thực vươn tầm thế giới</h4>
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <h3 className="text-center mt-5">BÁNH MỲ</h3>
-        <div className="mt-5" id={"banh-mi"}>
-          <Row className="align-items-center">
-            <Col md={6}>
-              <div className="d-flex align-items-center flex-column justify-content-center">
-                <h2>Bún chả việt nam</h2>
-                <h4>Mang ẩm thực vươn tầm thế giới</h4>
-              </div>
-            </Col>
-            <Col md={6}>
-              {" "}
-              <div className="ratio ratio-16x9">
-                <img src={AppResource.images.img_banner1} alt={"Bun-cha"} />
-              </div>
+              <Fade left>
+                <div className="d-flex align-items-center flex-column justify-content-center">
+                  <h2>Bún chả việt nam</h2>
+                  <h4>Mang ẩm thực vươn tầm thế giới</h4>
+                </div>
+              </Fade>
             </Col>
           </Row>
         </div>
-        <h3 className="text-center mt-5">PHỞ</h3>
+        <h3 className="text-center mt-5 " id={"banh-my"}>
+          BÁNH MỲ
+        </h3>
+        <div className="mt-5">
+          <Row className="align-items-center g-3">
+            <Col md={6}>
+              <Fade left>
+                <div className="d-flex align-items-center flex-column justify-content-center">
+                  <h2>Bún chả việt nam</h2>
+                  <h4>Mang ẩm thực vươn tầm thế giới</h4>
+                </div>
+              </Fade>
+            </Col>
+            <Col md={6}>
+              {" "}
+              <Fade right>
+                <div className="ratio ratio-16x9">
+                  <img src={AppResource.images.img_banner1} alt={"Bun-cha"} />
+                </div>
+              </Fade>
+            </Col>
+          </Row>
+        </div>
+        <h3 className="text-center mt-5" id="pho">
+          PHỞ
+        </h3>
 
-        <div
-          style={{ background: "rgb(199 199 199 / 8%)" }}
-          className="mt-5"
-          id="pho"
-        >
-          <Row className="align-items-center">
+        <div style={{ background: "rgb(199 199 199 / 8%)" }} className="mt-5">
+          <Row className="align-items-center g-3">
             <Col md={6}>
               {" "}
-              <div className="ratio ratio-16x9">
-                <img src={AppResource.images.img_banner1} alt={"Bun-cha"} />
-              </div>
+              <Fade right>
+                <div className="ratio ratio-16x9">
+                  <img src={AppResource.images.img_banner1} alt={"Bun-cha"} />
+                </div>
+              </Fade>
             </Col>
             <Col md={6}>
-              <div className="d-flex align-items-center flex-column justify-content-center">
-                <h2>Bún chả việt nam</h2>
-                <h4>Mang ẩm thực vươn tầm thế giới</h4>
-              </div>
+              <Fade left>
+                <div className="d-flex align-items-center flex-column justify-content-center">
+                  <h2>Bún chả việt nam</h2>
+                  <h4>Mang ẩm thực vươn tầm thế giới</h4>
+                </div>
+              </Fade>
             </Col>
           </Row>
         </div>

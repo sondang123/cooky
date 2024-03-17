@@ -5,8 +5,10 @@ import Footer from "../../../feature/Footer";
 function AppLayout({ children }) {
   return (
     <div className="d-flex flex-column min-vh-100" style={{ overflow: "auto" }}>
-      <Header />
-      <div className="flex-grow-1 ">{children}</div>
+      <div>
+        <Header />
+      </div>
+      <div className="flex-grow-1">{children}</div>
       <div className="pt-3">
         <Footer />
       </div>

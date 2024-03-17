@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import AppResource from "../../../general/constants/AppResource";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import Rotate from "react-reveal/Zoom";
 function Banner() {
   return (
     <div className="pt-3">
@@ -34,54 +35,64 @@ function Banner() {
         }}
       >
         <SwiperSlide>
-          <div>
-            <div className="ratio ratio-16x9">
-              <img
-                src={AppResource.images.img_banner1}
-                style={{ width: "100%", objectFit: "cover" }}
-              />
+          <Rotate>
+            <div>
+              <div className="ratio ratio-16x9">
+                <img
+                  src={AppResource.images.img_banner1}
+                  style={{ width: "100%", objectFit: "cover" }}
+                />
+              </div>
             </div>
-          </div>
+          </Rotate>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <div className="ratio ratio-16x9">
-              <img
-                src={AppResource.images.img_banner2}
-                style={{ width: "100%", objectFit: "cover" }}
-              />
+          <Rotate>
+            <div>
+              <div className="ratio ratio-16x9">
+                <img
+                  src={AppResource.images.img_banner2}
+                  style={{ width: "100%", objectFit: "cover" }}
+                />
+              </div>
             </div>
-          </div>
+          </Rotate>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <div className="ratio ratio-16x9">
-              <img
-                src={AppResource.images.img_banner3}
-                style={{ width: "100%", objectFit: "cover" }}
-              />
+          <Rotate>
+            <div>
+              <div className="ratio ratio-16x9">
+                <img
+                  src={AppResource.images.img_banner3}
+                  style={{ width: "100%", objectFit: "cover" }}
+                />
+              </div>
             </div>
-          </div>
+          </Rotate>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <div className="ratio ratio-16x9">
-              <img
-                src={AppResource.images.img_banner4}
-                style={{ width: "100%", objectFit: "cover" }}
-              />
+          <Rotate>
+            <div>
+              <div className="ratio ratio-16x9">
+                <img
+                  src={AppResource.images.img_banner4}
+                  style={{ width: "100%", objectFit: "cover" }}
+                />
+              </div>
             </div>
-          </div>
+          </Rotate>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
-            <div className="ratio ratio-16x9">
-              <img
-                src={AppResource.images.img_banner5}
-                style={{ width: "100%", objectFit: "cover" }}
-              />
+          <Rotate>
+            <div>
+              <div className="ratio ratio-16x9">
+                <img
+                  src={AppResource.images.img_banner5}
+                  style={{ width: "100%", objectFit: "cover" }}
+                />
+              </div>
             </div>
-          </div>
+          </Rotate>
         </SwiperSlide>
       </Swiper>
     </div>
