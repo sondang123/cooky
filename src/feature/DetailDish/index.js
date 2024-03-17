@@ -36,61 +36,7 @@ function DetailDish() {
                   ))}
                 </ul>
                 <h5>Quy trình nấu:</h5>
-                <p>
-                  Bước 1: Sơ chế nguyên liệu Cá làm sạch ruột, đánh vảy, cắt
-                  khúc rồi chà xát với chút muối hạt, chanh hoặc rượu trắng, rửa
-                  sạch cho hết mùi tanh. Sau đó, ướp cá với chút nước mắm, hạt
-                  nêm, tỏi băm trong 10 phút cho thấm gia vị, để cá đậm đà hơn
-                  khi nấu. Gừng cạo vỏ, rửa sạch rồi băm nhỏ. Ớt cắt đôi, bỏ
-                  hạt, rửa sạch rồi thái miếng nhỏ. Hành, thì là nhặt lá úa, rửa
-                  sạch rồi thái nhỏ. Dứa gọt vỏ, bỏ mắt, thái miếng nhỏ. Me chua
-                  ngâm với nước nóng, dằm và lọc lấy nước cốt me. Cà chua rửa
-                  sạch, đem bổ múi cau. Đậu bắp đem rửa sạch, cắt chéo.
-                </p>
-                <p>
-                  Bước 1: Sơ chế nguyên liệu Cá làm sạch ruột, đánh vảy, cắt
-                  khúc rồi chà xát với chút muối hạt, chanh hoặc rượu trắng, rửa
-                  sạch cho hết mùi tanh. Sau đó, ướp cá với chút nước mắm, hạt
-                  nêm, tỏi băm trong 10 phút cho thấm gia vị, để cá đậm đà hơn
-                  khi nấu. Gừng cạo vỏ, rửa sạch rồi băm nhỏ. Ớt cắt đôi, bỏ
-                  hạt, rửa sạch rồi thái miếng nhỏ. Hành, thì là nhặt lá úa, rửa
-                  sạch rồi thái nhỏ. Dứa gọt vỏ, bỏ mắt, thái miếng nhỏ. Me chua
-                  ngâm với nước nóng, dằm và lọc lấy nước cốt me. Cà chua rửa
-                  sạch, đem bổ múi cau. Đậu bắp đem rửa sạch, cắt chéo.
-                </p>
-                <p>
-                  Bước 1: Sơ chế nguyên liệu Cá làm sạch ruột, đánh vảy, cắt
-                  khúc rồi chà xát với chút muối hạt, chanh hoặc rượu trắng, rửa
-                  sạch cho hết mùi tanh. Sau đó, ướp cá với chút nước mắm, hạt
-                  nêm, tỏi băm trong 10 phút cho thấm gia vị, để cá đậm đà hơn
-                  khi nấu. Gừng cạo vỏ, rửa sạch rồi băm nhỏ. Ớt cắt đôi, bỏ
-                  hạt, rửa sạch rồi thái miếng nhỏ. Hành, thì là nhặt lá úa, rửa
-                  sạch rồi thái nhỏ. Dứa gọt vỏ, bỏ mắt, thái miếng nhỏ. Me chua
-                  ngâm với nước nóng, dằm và lọc lấy nước cốt me. Cà chua rửa
-                  sạch, đem bổ múi cau. Đậu bắp đem rửa sạch, cắt chéo.
-                </p>
-                <p>
-                  Bước 1: Sơ chế nguyên liệu Cá làm sạch ruột, đánh vảy, cắt
-                  khúc rồi chà xát với chút muối hạt, chanh hoặc rượu trắng, rửa
-                  sạch cho hết mùi tanh. Sau đó, ướp cá với chút nước mắm, hạt
-                  nêm, tỏi băm trong 10 phút cho thấm gia vị, để cá đậm đà hơn
-                  khi nấu. Gừng cạo vỏ, rửa sạch rồi băm nhỏ. Ớt cắt đôi, bỏ
-                  hạt, rửa sạch rồi thái miếng nhỏ. Hành, thì là nhặt lá úa, rửa
-                  sạch rồi thái nhỏ. Dứa gọt vỏ, bỏ mắt, thái miếng nhỏ. Me chua
-                  ngâm với nước nóng, dằm và lọc lấy nước cốt me. Cà chua rửa
-                  sạch, đem bổ múi cau. Đậu bắp đem rửa sạch, cắt chéo.
-                </p>
-                <p>
-                  Bước 1: Sơ chế nguyên liệu Cá làm sạch ruột, đánh vảy, cắt
-                  khúc rồi chà xát với chút muối hạt, chanh hoặc rượu trắng, rửa
-                  sạch cho hết mùi tanh. Sau đó, ướp cá với chút nước mắm, hạt
-                  nêm, tỏi băm trong 10 phút cho thấm gia vị, để cá đậm đà hơn
-                  khi nấu. Gừng cạo vỏ, rửa sạch rồi băm nhỏ. Ớt cắt đôi, bỏ
-                  hạt, rửa sạch rồi thái miếng nhỏ. Hành, thì là nhặt lá úa, rửa
-                  sạch rồi thái nhỏ. Dứa gọt vỏ, bỏ mắt, thái miếng nhỏ. Me chua
-                  ngâm với nước nóng, dằm và lọc lấy nước cốt me. Cà chua rửa
-                  sạch, đem bổ múi cau. Đậu bắp đem rửa sạch, cắt chéo.
-                </p>
+                {dataRender?.content}
               </Col>
               <Col md={6}>
                 <div className="ratio ratio-16x9">

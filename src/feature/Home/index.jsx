@@ -9,15 +9,20 @@ import _ from "lodash";
 import SearchMenu from "./Search";
 import AppResource from "../../general/constants/AppResource";
 import Fade from "react-reveal/Fade";
+import { Zoom } from "react-reveal";
 function Home() {
-  const dataCook = _.sampleSize(AppData.dataCook, 5);
+  const dataCook = _.take(AppData.dataCook, 5);
   return (
     <AppLayout>
       <Container>
         <Banner />
-        <SearchMenu />
+        <Zoom>
+          {" "}
+          <SearchMenu />
+        </Zoom>
         <CategoryMenu title={"Danh mục "} />
-        <div className="mt-3 mb-3">
+        <div className="mt-5 mb-3">
+          {" "}
           <TopDishes title={"Top món ăn "} dataCook={dataCook} />
         </div>
 
@@ -30,7 +35,7 @@ function Home() {
               <Fade right>
                 {" "}
                 <div className="ratio ratio-16x9">
-                  <img src={AppResource.images.img_banner1} alt={"Bun-cha"} />
+                  <img src={AppResource.images.img_bun_cha} alt={"Bun-cha"} />
                 </div>
               </Fade>
             </Col>
@@ -52,7 +57,7 @@ function Home() {
             <Col md={6}>
               <Fade left>
                 <div className="d-flex align-items-center flex-column justify-content-center">
-                  <h2>Bún chả việt nam</h2>
+                  <h2>Bánh mỳ việt nam</h2>
                   <h4>Mang ẩm thực vươn tầm thế giới</h4>
                 </div>
               </Fade>
@@ -61,7 +66,7 @@ function Home() {
               {" "}
               <Fade right>
                 <div className="ratio ratio-16x9">
-                  <img src={AppResource.images.img_banner1} alt={"Bun-cha"} />
+                  <img src={AppResource.images.img_banh_my} alt={"Bun-cha"} />
                 </div>
               </Fade>
             </Col>
@@ -77,14 +82,14 @@ function Home() {
               {" "}
               <Fade right>
                 <div className="ratio ratio-16x9">
-                  <img src={AppResource.images.img_banner1} alt={"Bun-cha"} />
+                  <img src={AppResource.images.img_pho} alt={"pho"} />
                 </div>
               </Fade>
             </Col>
             <Col md={6}>
               <Fade left>
                 <div className="d-flex align-items-center flex-column justify-content-center">
-                  <h2>Bún chả việt nam</h2>
+                  <h2>Phở việt nam</h2>
                   <h4>Mang ẩm thực vươn tầm thế giới</h4>
                 </div>
               </Fade>

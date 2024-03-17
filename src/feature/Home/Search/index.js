@@ -47,10 +47,16 @@ function SearchMenu() {
               : ""}
           </Dropdown.Toggle>
 
-          <Dropdown.Menu style={{ width: "350px" }}>
+          <Dropdown.Menu
+            style={{ width: "350px", zIndex: "10000000" }}
+            className="shadow border-0"
+          >
             <div
               className="p-2"
-              style={{ maxHeight: "50vh", minHeight: "200px" }}
+              style={{
+                maxHeight: "50vh",
+                zIndex: "1000000",
+              }}
             >
               <h6>Nguyên liệu:</h6>
               {AppData.dataFilter?.map((item, index) => (
@@ -75,7 +81,7 @@ function SearchMenu() {
                             } else {
                               let arrayNew = _.filter(
                                 formik.values.valueFilter,
-                                (a) => a.id !== i?.id
+                                (a) => a.id != i?.id
                               );
                               formik.setFieldValue("valueFilter", arrayNew);
                             }

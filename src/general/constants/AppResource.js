@@ -23,6 +23,10 @@ const AppResource = {
     img_stir_fried_meal: require("../../assets/images/img_stir_fried_meal.jpg"),
     img_logo: require("../../assets/images/logo.png"),
     img_no_data: require("../../assets/images/img_no_data.jpg"),
+    img_pho: require("../../assets/images/img_pho.jpg"),
+    img_banh_my: require("../../assets/images/img_banh_my.jpg"),
+    img_bun_cha: require("../../assets/images/img_bun_cha.jpg"),
+    img_rau_muong: require("../../assets/images/img_rau_muong.jpg"),
   },
 
   // colors

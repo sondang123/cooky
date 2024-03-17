@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import Empty from "../../general/components/Empty";
 import AppResource from "../../general/constants/AppResource";
 import _ from "lodash";
+import TopDishes from "../Home/TopDishes";
 
 function SearchScreen() {
   const navigate = useNavigate();
@@ -77,6 +78,13 @@ function SearchScreen() {
               imageEmptyPercentWidth={30}
             />
           )}
+          <div className="mt-3">
+            {" "}
+            <TopDishes
+              dataCook={AppData.dataCook}
+              title="Bạn có thể tham khảo"
+            />
+          </div>
         </Container>
       </AppLayout>
     </div>

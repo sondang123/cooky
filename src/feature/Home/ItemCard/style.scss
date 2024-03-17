@@ -1,0 +1,15 @@
+.card-item-content {
+  &:hover {
+    cursor: pointer;
+
+    transform: translateY(-5px);
+    transition: linear 0.2s;
+  }
+  .text-des {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

@@ -5,6 +5,7 @@ import ItemCard from "../ItemCard";
 import { AppData } from "../../../general/components/AppData";
 import _ from "lodash";
 import { useNavigate } from "react-router-dom";
+import { Fade } from "react-reveal";
 
 function TopDishes(props) {
   const { title, dataCook } = props;
@@ -13,9 +14,9 @@ function TopDishes(props) {
     <div>
       <h3 className="mb-3">{title}</h3>
       <div>
-        <Row className="gap-3">
+        <Row className="g-3">
           {dataCook?.map((item, index) => (
-            <Col lg={3} sm={6} md={4} key={index}>
+            <Col lg={3} sm={6} md={6} key={index} className="">
               <ItemCard
                 key={index}
                 title={item?.name}
