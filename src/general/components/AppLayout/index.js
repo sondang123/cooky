@@ -8,7 +8,6 @@ function AppLayout({ children }) {
       <Header />
       <div className="flex-grow-1 ">{children}</div>
       <div className="pt-3">
-        {" "}
         <Footer />
       </div>
     </div>

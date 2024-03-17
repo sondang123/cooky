@@ -13,7 +13,7 @@ function TopDishes(props) {
     <div>
       <h3 className="mb-3">{title}</h3>
       <div>
-        <Row>
+        <Row className="gap-3">
           {dataCook?.map((item, index) => (
             <Col lg={3} sm={6} md={4} key={index}>
               <ItemCard

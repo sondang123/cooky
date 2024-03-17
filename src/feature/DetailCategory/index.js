@@ -25,6 +25,10 @@ function DetailCategory() {
     setDataCook(listCook);
   }, [id]);
   const dataSame = _.sampleSize(AppData.dataCook, 5);
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [id]);
+
   return (
     <div>
       <AppLayout>

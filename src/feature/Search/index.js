@@ -17,17 +17,25 @@ function SearchScreen() {
   const dataCook = AppData.dataCook;
   const [renderData, setRenderData] = useState([]);
   useEffect(() => {
-    // if (value === "" || !value) {
-    //   setRenderData(dataCook);
-    // } else
-
-    let data = dataCook?.filter((item) =>
-      StringUtils.removeVietnameseTones(_.lowerCase(item?.name))?.includes(
-        StringUtils.removeVietnameseTones(_.lowerCase(value))
-      )
-    );
-    setRenderData(data);
+    if (valueFilter?.length === 0 && value === "" && !value) {
+      setRenderData(dataCook);
+    } else if (valueFilter?.length > 0 && value === "" && !value) {
+      let data = dataCook?.filter((item) =>
+        item?.Ingredient?.some((i) => valueFilter?.some((e) => i === e?.name))
+      );
+      setRenderData(data);
+    } else {
+      let data = dataCook?.filter(
+        (item) =>
+          StringUtils.removeVietnameseTones(_.lowerCase(item?.name))?.includes(
+            StringUtils.removeVietnameseTones(_.lowerCase(value))
+          ) ||
+          item?.Ingredient?.some((i) => valueFilter?.some((e) => i === e?.name))
+      );
+      setRenderData(data);
+    }
   }, [value]);
+  console.log("valueFilter", valueFilter);
   return (
     <div className="">
       <AppLayout>

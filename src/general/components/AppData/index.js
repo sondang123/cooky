@@ -60,7 +60,7 @@ export const AppData = {
       name: "Canh cá quả",
       description: "Cá quả nấu ngon",
       img: AppResource.images.img_banner4,
-      Ingredient: ["Cá"],
+      Ingredient: ["Cá", "Rau muống"],
     },
     {
       idCook: 2,
@@ -94,7 +94,7 @@ export const AppData = {
         },
         {
           id: 5,
-          name: "cá",
+          name: "Cá",
         },
       ],
     },
