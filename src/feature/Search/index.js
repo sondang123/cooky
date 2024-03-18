@@ -50,7 +50,7 @@ function SearchScreen() {
             </h3>
           </div>
           {renderData?.length > 0 ? (
-            <Row>
+            <Row className="g-3">
               {renderData?.map((item, index) => (
                 <Col lg={3} sm={6} md={4} key={index}>
                   <ItemCard
